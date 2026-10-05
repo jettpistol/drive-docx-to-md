@@ -1,0 +1,23 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Exporting folder as Markdown</title>
+  <link rel="stylesheet" href="export.css">
+</head>
+<body>
+  <main>
+    <h1 id="title">Drive Folder to Markdown</h1>
+    <p id="status">Starting...</p>
+    <progress id="progress" hidden></progress>
+    <p id="counts" class="counts"></p>
+    <p id="actions" hidden><button id="download-again">Download ZIP again</button></p>
+    <ul id="log"></ul>
+  </main>
+  <script src="../vendor/mammoth.browser.min.js"></script>
+  <script src="../vendor/turndown.js"></script>
+  <script src="../vendor/exceljs.min.js"></script>
+  <script src="../vendor/jszip.min.js"></script>
+  <script type="module" src="export.js"></script>
+</body>
+</html>

@@ -1,0 +1,24 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <h1>Drive Folder to Markdown</h1>
+  <div id="not-folder" hidden>
+    <p>Open a folder in <a href="https://drive.google.com" target="_blank">Google Drive</a>, then click this button again.</p>
+  </div>
+  <div id="folder" hidden>
+    <p class="label">Folder</p>
+    <p id="folder-name" class="folder-name"></p>
+    <label class="option">
+      <input type="checkbox" id="include-other">
+      Also include other files (PDFs, images, ...) unchanged
+    </label>
+    <button id="export">Export as Markdown</button>
+    <p class="hint">Google Docs, .docx, Google Sheets, .xlsx and .csv are converted. .md files are copied unchanged.</p>
+  </div>
+  <script type="module" src="popup.js"></script>
+</body>
+</html>

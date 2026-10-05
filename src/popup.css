@@ -1,0 +1,9 @@
+body { font: 13px/1.4 system-ui, sans-serif; width: 300px; margin: 0; padding: 14px 16px; color: #1f1f1f; }
+h1 { font-size: 15px; margin: 0 0 10px; }
+p { margin: 0 0 10px; }
+.label { color: #5f6368; font-size: 11px; text-transform: uppercase; letter-spacing: .04em; margin-bottom: 2px; }
+.folder-name { font-weight: 600; word-break: break-word; }
+.option { display: flex; gap: 6px; align-items: flex-start; margin: 4px 0 12px; }
+button { width: 100%; padding: 8px; border: 0; border-radius: 6px; background: #1a73e8; color: #fff; font-weight: 600; cursor: pointer; }
+button:hover { background: #1765cc; }
+.hint { color: #5f6368; font-size: 12px; margin: 10px 0 0; }

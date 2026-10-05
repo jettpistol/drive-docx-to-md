@@ -1,0 +1,17 @@
+{
+  "name": "drive-folder-to-markdown",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Chrome extension: export a Google Drive folder as Markdown",
+  "type": "module",
+  "scripts": {
+    "vendor": "node scripts/vendor.js",
+    "test": "node --test test/*.test.js"
+  },
+  "devDependencies": {
+    "exceljs": "^4.4.0",
+    "jszip": "^3.10.1",
+    "mammoth": "^1.13.0",
+    "turndown": "^7.2.4"
+  }
+}
